@@ -1,5 +1,4 @@
 public interface Contract {
-
     void grab(String item);
     String drop(String item);
     void examine(String item);
@@ -10,5 +9,5 @@ public interface Contract {
     Number grow();
     void rest();
     void undo();
-
 }
+
